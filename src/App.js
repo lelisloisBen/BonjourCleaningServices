@@ -1,25 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Suspense, lazy, useState, useMemo, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { UserContext } from './UserContext';
 import './App.css';
 
+import BonjourNavbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
+
+const Home = lazy(() => import('./views/Home/Home'));
+
+
 function App() {
+
+  const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+  useEffect(() => {
+    const handleResize = () => setWindowHeight(window.innerHeight);
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  },[])
+
+  const providerValue = useMemo(() => ({ windowHeight }), [ windowHeight ]);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <UserContext.Provider value={providerValue}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <BonjourNavbar/>
+            <section style={{minHeight: windowHeight}}>
+              <Switch>
+                <Route exact path="/" component={Home} />
+                <Route render={() => <NotFound/>} />
+              </Switch>
+            </section>
+          <Footer/>
+        </Suspense>
+      </UserContext.Provider>
+    </Router>
   );
 }
 

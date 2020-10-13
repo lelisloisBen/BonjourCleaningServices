@@ -1,0 +1,106 @@
+.section {
+    padding-top: 60px;
+    background-image: url("../../img/cleaning.jpg");
+    background-size: cover;
+    font-family: InaiMathi;
+}
+
+
+.landingheading{
+    color: #E55742;
+    font-size: 4.5rem;
+    margin-top: 38%;
+    margin-right: 20%;
+    margin-bottom: -5px;
+}
+
+.landingSlogan{
+    font-size: 2rem;
+    color:#2F2B2B;
+    opacity: 0.77;
+    margin-right: 20%;
+}
+
+.LearnMoreButton{
+    color: black;
+    width:140px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    margin-right: 17px;
+    padding: 4px; 
+    background: none;
+    text-decoration: none;
+}
+
+.SignUpButton { 
+    color: black;
+    width:140px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    margin-right: 20%;
+    padding: 4px;
+    background: none;
+    text-decoration: none;
+}
+
+.LearnMoreButton:hover, .SignUpButton:hover, .aboutUsButton:hover{
+    text-decoration: none;
+    color:#5FAD56;
+}
+
+
+.aboutUsHeading {
+    color: #E55742;
+    margin-top:15%;
+    margin-bottom: 5%;
+}
+
+.aboutUsContent {
+    width:500px;
+    text-align: center;
+}
+
+.aboutUsButton {
+    color: black;
+    width:140px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    margin-top: 8%;
+    padding: 4px;
+    background: none;  
+}
+
+.aboutUsGraphicDiv {
+    background-color: #588B8B;
+}
+
+.servicesHeading {
+    color: #E55742;
+}
+
+/* .serviceImg{
+ height: 300px;
+ width: 300px;
+ margin-top: 35%;
+} */
+
+
+.employeeImg{
+    height: 100%;
+    width: 25%;
+    margin-top: 30%
+
+}
+
+
+.serviceCard{
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px;
+    width: 400px;
+    height: 450px;
+}
+
+.cardBodyColor {
+    background-color: #ECF1ED;
+}
