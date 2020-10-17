@@ -7,7 +7,8 @@ import BonjourNavbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import NotFound from './components/NotFound/NotFound';
 
-const Home = lazy(() => import('./views/Home/Home'));
+// const Home = lazy(() => import('./views/Home/Home'));
+const Home = lazy(() => import('./views/Home1/Home1'));
 
 
 function App() {
