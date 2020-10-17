@@ -1,11 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import styles from './Home.module.css';
 import { UserContext } from '../../UserContext';
-import PlacesAutocomplete from '../../components/googleAutocomplete/usePlaceAutocomplete'
+import PlacesAutocomplete from '../../components/googleAutocomplete/usePlaceAutocomplete';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import TimePicker from "react-time-picker";
 
 const Home = () => {
 
     const {windowHeight} = useContext(UserContext);
+    const [startDate, setStartDate] = useState(new Date());
+    const [time, setStartTime] = useState("08:00")
 
     return (
     <>
@@ -57,6 +62,16 @@ const Home = () => {
             <h1>Enter Your Address:</h1>
             <PlacesAutocomplete/>
         </div>
+        <hr/>
+        <DatePicker 
+            selected={startDate} 
+            onChange={date => setStartDate(date)} 
+        />
+        <TimePicker
+          onChange={time => setStartTime(time)}
+          value={time}
+        />
+        the time you selected: {time}
     </>
     );
 };
