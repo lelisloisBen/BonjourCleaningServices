@@ -93,7 +93,10 @@ const Home1 = () => {
               <div className="col-md-4">
                 <div className="testi-block">
                   <i className="fa fa-quote-left" aria-hidden="true" />
-                  <p>They did such a good job. Whether you want to give a unique gift or have your own home cleaned, Maid for you provides a large range of top-notch services that I highly recommend to anyone. </p>
+                  <p>They did such a good job. 
+                    <br/> Whether you want to give a unique gift or have your own home cleaned, Maid for you provides a large range of top-notch services that I highly recommend to anyone. 
+                    <br/><br/>
+                  </p>
                 </div>
                 <div className="testi-title">
                   <h4>Samantha</h4>
@@ -241,73 +244,7 @@ const Home1 = () => {
             </div>
           </div>
         </section>
-        <footer>
-          <div className="container">
-            <div className="row mb-5">
-              <div className="col-md-2">
-                <div className="foot-box">
-                  <h6>QUICK LINKS</h6>
-                  <ul>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="foot-box">
-                  <h6>LEGAL STUFF</h6>
-                  <ul>
-                    <li>Terms of use</li>
-                    <li>Cookies</li>
-                    <li>Privacy Policy</li>
-                    <li>Security Policy</li>
-                    <li>Money back Guarantee</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="foot-box">
-                  <h6>OUR LOCATIONS</h6>
-                  <ul>
-                    <li>Boston</li>
-                    <li>Chicago</li>
-                    <li>London</li>
-                    <li>Los Angeles</li>
-                    <li>New York</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="subscribe">
-                  <h6>SUBSCRIBE</h6>
-                  <form className="form-inline" action="booking.html">
-                    <div className="input-group mb-2 mr-sm-2 mb-sm-0">
-                      <input type="email" className="form-control subscribe-form" id="inlineFormInputGroup" placeholder="Enter your email" />
-                      <button type="submit" className="input-group-addon subscribe-btn"><span className="pe-7s-angle-right" /></button>
-                    </div>
-                  </form>
-                  <div className="social-icons">
-                    <a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a>
-                    <a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a>
-                    <a href="#"><i className="fa fa-linkedin" aria-hidden="true" /></a>
-                    <a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <hr />
-            <div className="row">
-              <div className="col-md-12">
-                <div className="copyright">
-                  <a href="#">© 2016 Cleanly. All rights reserved</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
+        
     </div>
 
     )

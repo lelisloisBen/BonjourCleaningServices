@@ -1,4 +1,4 @@
-/******** CUSTOM SELECT ******************************/
+/* ******* CUSTOM SELECT *****************************
 .dropdown-container {
   width: 250px;
   margin: 100px auto;
@@ -25,7 +25,7 @@
 }
 
 /* For IE <= 11 */
-.customSelect::-ms-expand {
+/* .customSelect::-ms-expand {
   display: none; 
 }
 
@@ -37,10 +37,10 @@
 }
 .customSelect:hover, select:focus {
   fill: #c0392b;
-}
+} */
 /******** END CUSTOM SELECT ******************************/
 
-.customTextarea {
+/* .customTextarea {
   width: 200px;
   height: 50px;
   background-color: #c0392b;
@@ -51,7 +51,7 @@
 }
 .autocompleteInput {
   width: 400px;
-}
+} */ */
 
 /* home page */
 article, aside, details, figcaption, figure, footer, header, hgroup,

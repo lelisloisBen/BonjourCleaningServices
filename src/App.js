@@ -2,6 +2,7 @@ import React, { Suspense, lazy, useState, useMemo, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { UserContext } from './UserContext';
 import './App.css';
+import './css/pe-icon-7-stroke.css';
 
 import BonjourNavbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
