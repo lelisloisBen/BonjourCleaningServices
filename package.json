@@ -18,10 +18,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-time-picker": "^4.0.1",
+    "serve": "^11.3.2",
     "use-places-autocomplete": "^1.5.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
