@@ -73,11 +73,11 @@ const Home1 = () => {
               <div className="col-md-4">
                 <div className="testi-block">
                   <i className="fa fa-quote-left" aria-hidden="true" />
-                  <p>Maid Services NYC is a wonderful service. I utilized their services to clean a one bedroom apartment I was staying in NYC after throwing a get together. They were prompt, left the place spotless, and very professional. </p>
+                  <p>BonjourCleaning is a wonderful service. I utilized their services to clean a one bedroom apartment I was staying in Miami after throwing a get together. They were prompt, left the place spotless, and very professional. </p>
                 </div>
                 <div className="testi-title">
                   <h4>Sandra</h4>
-                  <p>Marketing Staff, New York</p>
+                  <p>Marketing Staff, Miami</p>
                 </div>
               </div>
               <div className="col-md-4">
@@ -87,20 +87,20 @@ const Home1 = () => {
                 </div>
                 <div className="testi-title">
                   <h4>Jessica</h4>
-                  <p>Photographer, New York</p>
+                  <p>Photographer, Miami</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="testi-block">
                   <i className="fa fa-quote-left" aria-hidden="true" />
                   <p>They did such a good job. 
-                    <br/> Whether you want to give a unique gift or have your own home cleaned, Maid for you provides a large range of top-notch services that I highly recommend to anyone. 
+                    <br/> Whether you want to give a unique gift or have your own home cleaned, BonjourCleaning provides a large range of top-notch services that I highly recommend to anyone. 
                     <br/><br/>
                   </p>
                 </div>
                 <div className="testi-title">
                   <h4>Samantha</h4>
-                  <p>Physical Therapist, Manhattan</p>
+                  <p>Physical Therapist, Miami</p>
                 </div>
               </div>
             </div>
@@ -130,12 +130,12 @@ const Home1 = () => {
                 <div className="service-link">
                   <h3>Make Better <span>Living room</span></h3>
                   <ul>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Cleaning and highrise dusting</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Furniture Dusting/Vacuuming</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Fixtures cleaning - A/C,Fan etc</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wall marks cleaning (Washable paint)</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Floor scrubbing / Dry and Wet mop</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Carpet vacuuming</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Cleaning and highrise dusting</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Furniture Dusting/Vacuuming</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Fixtures cleaning - A/C,Fan etc</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wall marks cleaning (Washable paint)</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Floor scrubbing / Dry and Wet mop</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Carpet vacuuming</a></li>
                   </ul>
                 </div>
               </div>
@@ -149,12 +149,12 @@ const Home1 = () => {
                 <div className="service-link service-link1">
                   <h3>Your Beautiful <span>Kitchen</span></h3>
                   <ul>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wash and scrub sink</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wash cabinet faces and appliances</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Dust and wipe all reachable surfaces</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wipe mirrors and glass fixtures</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Vacuum and mop all floors</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Take out trash and recyclables</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wash and scrub sink</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wash cabinet faces and appliances</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Dust and wipe all reachable surfaces</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wipe mirrors and glass fixtures</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Vacuum and mop all floors</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Take out trash and recyclables</a></li>
                   </ul>
                 </div>
               </div>
@@ -184,12 +184,12 @@ const Home1 = () => {
                 <div className="service-link">
                   <h3>Tidy <span>Bathroom</span></h3>
                   <ul>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wash and sanitize toilet, shower and sink</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Dust and wipe all reachable surfaces</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wipe door handles and light switches</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wipe mirrors and glass fixtures</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Vacuum and mop all floors</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Take out trash and recyclables</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wash and sanitize toilet, shower and sink</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Dust and wipe all reachable surfaces</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wipe door handles and light switches</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wipe mirrors and glass fixtures</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Vacuum and mop all floors</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Take out trash and recyclables</a></li>
                   </ul>
                 </div>
               </div>
@@ -203,12 +203,12 @@ const Home1 = () => {
                 <div className="service-link service-link1">
                   <h3>The Perfect <span>Bedroom</span></h3>
                   <ul>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Make beds and change linens</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Dust and wipe all reachable surfaces</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wipe door handles and light switches</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Wipe mirrors and glass fixtures</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Vacuum and mop all floors</a></li>
-                    <li><i className="fa fa-check" aria-hidden="true" /><a href="#">Take out trash and recyclables</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Make beds and change linens</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Dust and wipe all reachable surfaces</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wipe door handles and light switches</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Wipe mirrors and glass fixtures</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Vacuum and mop all floors</a></li>
+                    <li><i className="fa fa-check" aria-hidden="true" /><a href="/">Take out trash and recyclables</a></li>
                   </ul>
                 </div>
               </div>

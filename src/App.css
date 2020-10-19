@@ -53,6 +53,17 @@
   width: 400px;
 } */ */
 
+/* logo colors blue: #45C3D3, grey: #565F60 */
+
+.blueTitle {
+  color: #45C3D3!important;
+  font-weight: bold;
+}
+.greyTitle {
+  color: #565F60!important;
+  font-weight: bold;
+}
+
 /* home page */
 article, aside, details, figcaption, figure, footer, header, hgroup,
 main, nav, section, summary {
