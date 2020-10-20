@@ -25,7 +25,7 @@ const BonjourNavbar = () => {
                       <li className="nav-item">
                         <a className="nav-link" href="/">Our Services </a>
                       </li>
-                      <li><a href="booking.html" className="btn btn-info">Book a Cleaning</a></li>
+                      <li><Link to="/booking" className="btn btn-info">Book a Cleaning</Link></li>
                     </ul>
                   </div>
                 </nav>

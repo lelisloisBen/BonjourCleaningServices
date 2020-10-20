@@ -10,6 +10,7 @@ import NotFound from './components/NotFound/NotFound';
 
 // const Home = lazy(() => import('./views/Home/Home'));
 const Home = lazy(() => import('./views/Home1/Home1'));
+const Booking = lazy(() => import('./views/booking/booking'));
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
             <section style={{minHeight: windowHeight}}>
               <Switch>
                 <Route exact path="/" component={Home} />
+                <Route path="/booking" component={Booking} />
                 <Route render={() => <NotFound/>} />
               </Switch>
             </section>

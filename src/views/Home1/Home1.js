@@ -14,7 +14,7 @@ const Home1 = () => {
               <div className="col-md-10">
                 <div className="slider-content">
                   <h1>Cleaning Made Easy</h1>
-                  <h3>Book expert home cleaners and handymen at a moment's notice. Just pick a time and we’ll do the rest.</h3>
+                  <h3>Book expert home cleaners at a moment's notice. Just pick a time and we’ll do the rest.</h3>
                   <form className="form-wrap" action="booking.html">
                     <div className="btn-group" role="group" aria-label="Basic example">
                       <input type="text" placeholder="Email Address" className="btn-group1" />
